@@ -4,7 +4,7 @@ tPythonMidtermFa23: Template repo for Pyton Midterm Fall 2023
 
 Python Midterm Assignment
 
-Welcome to your midterm assignment for the Python programming course at Fresno City College! In this assignment, you will be working on a collaborative project with your lab partners to create a program that manages animals arriving at your zoo. You will present your program to your classmates and participate in a code review session to refine your code.
+Welcome to your midterm assignment for the Python programming course at Fresno City College! In this assignment, you will be working on a collaborative project with your lab partner(s) to create a program that manages animals arriving at your zoo. You will present your program to your classmates and participate in a code review session to refine your code.
 
 Assignment Description
 
