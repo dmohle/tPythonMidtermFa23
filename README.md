@@ -3,16 +3,18 @@ tPythonMidtermFa23: Template repo for Pyton Midterm Fall 2023
 
 
 Python Midterm Assignment
+
 Welcome to your midterm assignment for the Python programming course at Fresno City College! In this assignment, you will be working on a collaborative project with your lab partners to create a program that manages animals arriving at your zoo. You will present your program to your classmates and participate in a code review session to refine your code.
 
 Assignment Description
+
 Program Overview
 Animals are arriving from zoos around the world, and your task is to give them names, calculate their birthdates, and organize them into habitats in your zoo. To accomplish this, you will write a Python program that performs the following tasks:
 
 Reads information about arriving animals from an input text file (arrivingAnimals.txt).
 Calculates a birthday based on the input data.
 Generates a name for each animal using names collected from a recent community fundraiser (animalNames.txt).
-Creates a unique ID for each animal to be used in your zoo information system.
+Creates a unique ID for each animal to be used in your zoo information system (uniquesID must be inthe format: Hy01, Hy02, Li01, Li02, etc.)
 Assigns each animal to an appropriate habitat.
 Outputs a report (zooPopulation.txt) containing all zoo animals and their information.
 Constraints
@@ -41,10 +43,8 @@ genUniqueAnimalID(): Calculate a unique ID to uniquely identify each animal in y
 genAnimalName(): Create an animal name based on input from a community fundraiser (animalNames.txt).
 genZooHabitat(): Assign each new animal to a habitat. Each species must have its own habitat.
 Input Data Format
-The information about arriving animals will arrive in the following format with an unknown number of lines:
+The information about arriving animals will arrive in the following format with an unknown number of lines (arrivingAnimals.txt):
 
-sql
-Copy code
 4 year old female hyena, born in spring, tan color, 70 pounds, from Friguia Park, Tunisia
 12 year old male hyena, born in fall, brown color, 150 pounds, from Friguia Park, Tunisia
 4 year old male hyena, born in spring, black color, 120 pounds, from Friguia Park, Tunisia
@@ -53,7 +53,7 @@ Copy code
 
 Example Habitat Output (see the text file named: zooPopulation.txt):
 
-Your program should organize animals into their respective habitats and generate a report similar to the following:
+Your program will organize animals into their respective habitats and generate a report similar to the following (see zooPopulation.txt for exact specs):
 
 Hyena Habitat:
 
