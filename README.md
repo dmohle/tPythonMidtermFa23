@@ -30,12 +30,13 @@ Exception Handling: Handle standard file I/O exceptions and create custom except
 Functions and Lists: Organize the data read from the input zoo document using functions and lists.
 Input - File and String Handling: Parse string data from input files.
 Output - Formatted Output: Generate a report listing zoo animals with their attributes and their habitats (zooPopulation.txt).
-Data Structures
-You will use the following data structures in your program:
 
-Python lists and strings
+Data Structures:
+You will use the following data structures in your program.
+
+Python lists and strings.
 An Animal class with derived Hyena, Lion, Tiger, and Bear classes to represent different species of animals.
-Functions
+Functions:
 Your program must include at least four functions with the following names:
 
 genBirthDay(): Calculate a birthday from the information received from the originating zoo. Handle cases where the birth season is unknown.
